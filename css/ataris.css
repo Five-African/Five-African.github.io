@@ -1,0 +1,236 @@
+
+.main-border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -161px;
+    margin-left: -261px;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #888888;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px #888888;
+    padding: 10px;
+    background: white;
+    font-family: Microsoft YaHei;
+}
+
+.main-bg {
+    width: 500px;
+    height: 300px;
+    background: GRAY;
+    border-radius: 10px;
+}
+
+.container {
+    width: 500px;
+    height: 230px;
+    background: white;
+}
+
+.title {
+    height: 45px;
+    padding-top: 5px;
+    color: white;
+}
+
+.name {
+    margin-left: 25px;
+    font-size: 170%;
+}
+
+.normal {
+    display: inline-block;
+}
+
+.type {
+    float: right;
+    margin-right: 5px;
+    text-align: right;
+}
+
+.PinYin {
+    font-size: 90%;
+}
+
+.icon {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 180px;
+    height: 180px;
+    border: 1px solid #888888;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #888888;
+}
+
+.ability-container {
+    padding-top: 25px;
+    padding-left: 240px;
+    color: GRAY;
+}
+
+    .ability-container > div {
+        height: 25px;
+    }
+
+.ability-slot-container {
+    width: 160px;
+    margin-left: 10px;
+}
+
+.ability {
+    height: 11px;
+    background: GRAY;
+    opacity: 0;
+    filter: Alpha(opacity=0); /* IE8 以及更早的浏览器 */
+    -moz-opacity: 0;
+    -webkit-opacity: 0;
+    -khtml-opacity: 0;
+    animation: ability-slot 1s ease 0.5s 1 forwards;
+    /* Firefox: */
+    -moz-animation: ability-slot 1s ease 0.5s 1 forwards;
+    /* Safari and Chrome: */
+    -webkit-animation: ability-slot 1s ease 0.5s 1 forwards;
+    /* Opera: */
+    -o-animation: ability-slot 1s ease 0.5s 1 forwards;
+}
+
+@keyframes ability-slot {
+    from {
+        width: 0;
+        opacity: 1;
+        filter: Alpha(opacity=1); /* IE8 以及更早的浏览器 */
+        -moz-opacity: 1;
+        -webkit-opacity: 1;
+        -khtml-opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+        filter: Alpha(opacity=1); /* IE8 以及更早的浏览器 */
+        -moz-opacity: 1;
+        -webkit-opacity: 1;
+        -khtml-opacity: 1;
+    }
+}
+
+.skill-container {
+    margin-top: 13px;
+    margin-left: 5px;
+    color: white;
+}
+
+.skill-border {
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+    background: GRAY;
+}
+
+.skill {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -30px -30px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 10px;
+    -webkit-animation: fadeAni 0.7s ease 2s 1;
+    animation: fadeAni 0.7s ease 2s 1;
+    -moz-animation: fadeAni 0.7s ease 2s 1;
+    -o-animation: fadeAni 0.7s ease 2s 1;
+}
+
+@-webkit-keyframes fadeAni {
+    to {
+        opacity: 0;
+        filter: Alpha(opacity=0); /* IE8 以及更早的浏览器 */
+        -moz-opacity: 0;
+        -webkit-opacity: 0;
+        -khtml-opacity: 0;
+    }
+}
+
+@keyframes fadeAni {
+    to {
+        opacity: 0;
+        filter: Alpha(opacity=0); /* IE8 以及更早的浏览器 */
+        -moz-opacity: 0;
+        -webkit-opacity: 0;
+        -khtml-opacity: 0;
+    }
+}
+
+.spinner > div {
+    background-color: #67CF22;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+    -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+    animation: stretchdelay 1.2s infinite ease-in-out;
+    -moz-animation: stretchdelay 1.2s infinite ease-in-out;
+    -o-animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+    -moz-animation-delay: -1.1s;
+    -o-animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+    -moz-animation-delay: -1.1s;
+    -o-animation-delay: -1.1s;
+}
+
+.spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+    -moz-animation-delay: -1.1s;
+    -o-animation-delay: -1.1s;
+}
+
+.spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+    -moz-animation-delay: -1.1s;
+    -o-animation-delay: -1.1s;
+}
+
+@-webkit-keyframes stretchdelay {
+    0%, 40%, 100% {
+        -webkit-transform: scaleY(0.4);
+    }
+
+    20% {
+        -webkit-transform: scaleY(1.0);
+    }
+}
+
+@keyframes stretchdelay {
+    0%, 40%, 100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+        -moz-transform: scaleY(0.4);
+        -o-transform: scaleY(0.4);
+    }
+
+    20% {
+        transform: scaleY(1.0);
+        -webkit-transform: scaleY(1.0);
+        -moz-transform: scaleY(0.4);
+        -o-transform: scaleY(0.4);
+    }
+}

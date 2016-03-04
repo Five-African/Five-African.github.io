@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html style="background:#eeeeee;">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Gizeta">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="../css/ataris.css">
+    <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+    <title>Ataris</title>
+</head>
+<body onload="onLoad()">
+    <script type="text/javascript">
+        function onLoad() {
+            setInterval("myInterval1()", 2200);//1000为1秒钟
+            setInterval("myInterval2()", 2600);//1000为1秒钟
+        }
+        function myInterval1() {
+            $('.main-border').show();
+
+        }
+        function myInterval2() {
+            $('.spinner').hide();
+        }
+    </script>
+
+    <div class="main-border" style="display: none">
+        <div class="main-bg">
+            <div class="title">
+                <div class="name normal">Ataris</div>
+                <div class="normal">drei</div>
+                <div class="type">
+                    <div>划水担当</div>
+                    <div class="PinYin">HUA SHUI</div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="icon" style="background-image:url('../img/icon_ataris.png');"></div>
+                <div class="ability-container">
+                    <div>
+                        <div class="normal">卖萌</div>
+                        <div class="normal ability-slot-container"><div style="width:80%;" class="normal ability"></div></div>
+                        <div class="normal">80</div>
+                    </div>
+                    <div>
+                        <div class="normal">划水</div>
+                        <div class="normal ability-slot-container"><div style="width:95%;" class="normal ability"></div></div>
+                        <div class="normal">95</div>
+                    </div>
+                    <div>
+                        <div class="normal">吐槽</div>
+                        <div class="normal ability-slot-container"><div style="width:75%;" class="normal ability"></div></div>
+                        <div class="normal">75</div>
+                    </div>
+                    <div>
+                        <div class="normal">装傻</div>
+                        <div class="normal ability-slot-container"><div style="width:60%;" class="normal ability"></div></div>
+                        <div class="normal">60</div>
+                    </div>
+                    <div>
+                        <div class="normal">代码</div>
+                        <div class="normal ability-slot-container"><div style="width:70%;" class="normal ability"></div></div>
+                        <div class="normal">70</div>
+                    </div>
+                    <div class="skill-container">
+                        <div class="normal skill-border">
+                            <div class="skill">C#</div>
+                        </div>
+                        <div class="normal skill-border">
+                            <div class="skill">PHP</div>
+                        </div>
+                        <div class="normal skill-border">
+                            <div class="skill">JAVA</div>
+                        </div>
+                        <div class="normal skill-border">
+                            <div class="skill">HTML</div>
+                        </div>
+                        <div class="normal skill-border">
+                            <div class="skill">CSS</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+    </div>
+
+
+</body>
+</html>
