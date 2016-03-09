@@ -284,7 +284,7 @@ HTMLAudioElement.prototype.setCurrentSrc = function(currentSrcIndex){
 	$(".diskmask").css("background","img/"+window.memberlist[window.currentSrcIndex].soundtitle);
 	$(".listcontainer li").css("background-color","");
 	$("[data-id="+window.currentSrcIndex+"]").css("background-color","rgba(255,0,0,0.3)");
-	$("#membersshow #"+window.memberlist[currentSrcIndex].membername+" .containerwrap").load('content/'+window.memberlist[currentSrcIndex].membername+'.html .main-border');
+	$("#membersshow #"+window.memberlist[currentSrcIndex].membername+" .containerwrap").load('content/'+window.memberlist[currentSrcIndex].membername.toLowerCase()+'.html .main-border');
 	$("#membersshow .active").removeClass("active");
 	$("#membersshow #"+window.memberlist[currentSrcIndex].membername).addClass("active");
 	$(".download").click(function()
