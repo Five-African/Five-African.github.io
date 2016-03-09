@@ -49,6 +49,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	background-position: center;
 	background-size: cover;
 	-webkit-filter:blur(15px);
+    -moz-filter:blur(15px);
+    -o-filter:blur(15px);
+	filter:blur(15px);
+
 	z-index: -98;
 }
 .diskmask>:first-child
@@ -318,7 +322,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .outter
 {
-	display: inline-block;
+	display: block;
 	width: 34vh;
 	height: 100%;
 	float: left;
@@ -354,7 +358,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	float: left;
 	text-align: center;
 	vertical-align: middle;
-	display: inline-block;
+	display: block;
 }
 .barbg
 {
