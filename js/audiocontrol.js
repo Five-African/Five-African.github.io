@@ -12,8 +12,8 @@ window.onload=function()
 	var disk = $('.disk');
 	var cursor = $(".cursor");
 	var paused=true;
-	var loopone = false;
-	var shuffle = false;
+	window.loopone = false;
+	window.shuffle = false;
 	$.getJSON("members.json",parseMembers);
 	$("#progressbar").width(0);
 	//播放暂停
@@ -85,25 +85,25 @@ window.onload=function()
 
 	//循环按钮
 	$('#loop').click(function(){
-		if(loopone){//loopone->shuffle
-			$(this).addClass('shuffle').removeClass('loopone');
+		if(window.loopone){//window.loopone->window.shuffle
+			$(this).addClass('window.shuffle').removeClass('window.loopone');
 			audio.loop = false;
-			loopone=false;
-			shuffle=true;
+			window.loopone=false;
+			window.shuffle=true;
 		}
-		else if(shuffle)//shuffle->loop
+		else if(window.shuffle)//window.shuffle->loop
 		{
-			$(this).addClass('loop').removeClass('shuffle');
+			$(this).addClass('loop').removeClass('window.shuffle');
 			audio.loop = false;
-			loopone = false;
-			shuffle=false;
+			window.loopone = false;
+			window.shuffle=false;
 		}
-		else //loop->loopone
+		else //loop->window.loopone
 		{
-			$(this).addClass('loopone').removeClass('loop');
+			$(this).addClass('window.loopone').removeClass('loop');
 			audio.loop = true;
-			loopone = true;
-			shuffle=false;
+			window.loopone = true;
+			window.shuffle=false;
 		}
 		
 	});
@@ -221,13 +221,13 @@ window.onload=function()
 			disk.css("-mozanimation-play-state","paused");
 		paused=true;
 		$("#play").addClass('play').removeClass('pause');
-		if (!loopone) {
+		if (!window.loopone) {
                 $(".next").triggerHandler("click");
             }
         });
 	//下一曲
 	$(".next").click(function(){
-		if(shuffle){
+		if(window.shuffle){
 			window.currentSrcIndex = Math.ceil(Math.random()*window.memberlist.length)-1;
 			window.currentSrcIndex < 0 && (window.currentSrcIndex = 0);
 			window.currentSrcIndex = window.currentSrcIndex % window.memberlist.length;
@@ -237,11 +237,11 @@ window.onload=function()
         
         audio.setCurrentSrc(window.currentSrcIndex);
 		audio.play();
-		audio.loop = loopone;
+		audio.loop = window.loopone;
     });
     //上一曲
     $(".prev").click(function(){
-    	if(shuffle){
+    	if(window.shuffle){
 			window.currentSrcIndex = Math.ceil(Math.random()*window.memberlist.length)-1;
 			window.currentSrcIndex < 0 && (window.currentSrcIndex = 0);
 			window.currentSrcIndex = window.currentSrcIndex % window.memberlist.length;
@@ -251,7 +251,7 @@ window.onload=function()
         var currentSrc = window.memberlist[window.currentSrcIndex].soundsrc;
         audio.setCurrentSrc(window.currentSrcIndex);
 		audio.play();
-		audio.loop = loopone;
+		audio.loop = window.loopone;
     });
 
 
@@ -318,6 +318,6 @@ function parseMembers(data)
 	{
 		audio.setCurrentSrc($(this).attr("data-id"));
 		audio.play();
-		audio.loop = loopone;
+		audio.loop = window.loopone;
 	})
 }
