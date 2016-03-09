@@ -312,7 +312,7 @@ function parseMembers(data)
 		$(".listcontainer ul").append('<li class="musiclist" data-id="'+i+'" '+(i==0?'style="background-color:rgba(255,0,0,0.3)"':'')+'><div><span>'+content["membername"]+'</span><div><span>'+content["soundtitle"]+'</span><span>'+content["soundartist"]+'</span></div><span>'+content["soundtime"]+'</span></div></li>');
 		$("#membersshow").append('<li id="'+content["membername"]+'" '+(i==0?'class="active"':'')+'><div class="containerwrap"></div></li>');
 	});
-	$("#membersshow #"+window.memberlist[0].membername+" .containerwrap").load('content/'+window.memberlist[0].membername+'.html .main-border');
+	$("#membersshow #"+window.memberlist[0].membername+" .containerwrap").load('content/'+window.memberlist[0].membername.toLowerCase()+'.html .main-border');
 	audio.setCurrentSrc(0);
 	$(".musiclist").click(function()
 	{
