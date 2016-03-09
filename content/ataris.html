@@ -5,26 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="Gizeta">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <link rel="stylesheet" type="text/css" href="../css/ataris.css">
-    <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/ataris.css">
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
     <title>Ataris</title>
 </head>
-<body onload="onLoad()">
-    <script type="text/javascript">
-        function onLoad() {
-            setInterval("myInterval1()", 2200);//1000为1秒钟
-            setInterval("myInterval2()", 2600);//1000为1秒钟
-        }
-        function myInterval1() {
-            $('.main-border').show();
+<body>
 
-        }
-        function myInterval2() {
-            $('.spinner').hide();
-        }
-    </script>
-
-    <div class="main-border" style="display: none">
+    <div class="main-border">
         <div class="main-bg">
             <div class="title">
                 <div class="name normal">Ataris</div>
@@ -35,7 +22,7 @@
                 </div>
             </div>
             <div class="container">
-                <div class="icon" style="background-image:url('../img/icon_ataris.png');"></div>
+                <div class="icon" style="background-image:url('img/icon_ataris.png');"></div>
                 <div class="ability-container">
                     <div>
                         <div class="normal">卖萌</div>
@@ -82,14 +69,6 @@
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="spinner">
-        <div class="rect1"></div>
-        <div class="rect2"></div>
-        <div class="rect3"></div>
-        <div class="rect4"></div>
-        <div class="rect5"></div>
     </div>
 
 

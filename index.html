@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>五个非洲人er</title>
+	<link rel="stylesheet" type="text/css" href="css/container.css">
+	<link rel="stylesheet" type="text/css" href="css/ataris.css">
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/firebase.js"></script>
+	<script type="text/javascript" src="js/audiocontrol.js"></script>
+</head>
+<body id="containerbody">
+	<div class="mask_bg"></div>
+	<div class="container_border">
+		<div class="diskmask"><div></div></div>
+		<header class="header">
+			<div>
+				<h1 id="currenttitle">梦回还</h1>
+				<h3 id="currentartist">哟猫UNEKO</h3>
+			</div>
+			<a class="share" href="javascript:(function(){window.open('http://v.t.sina.com.cn/share/share.php?title='+encodeURIComponent(document.title+' 这个逼装的我给10分！感觉我们做的不错请给我们点赞和推广哟！')+'&url='+encodeURIComponent(location.href)+'&source=bookmark','_blank','width=450,height=400');})()"></a>
+			<div class="cursoroutter">
+				<div class="cursor"></div>
+			</div>
+			<div class="outtervolumebar">
+				<div class="flexbox volumebar">
+					<div class="barbg">
+					<div id="volumebar" class="bar"></div>
+					<div id="volume" class="progress"></div>
+				</div>
+			</div>
+
+		</header>
+		<div class="diskborder circle"><div class="disk circle"></div></div>
+		<ul id="membersshow"></ul>
+
+		<footer class="controls">
+			<div class="funcs">
+				<div>
+					<div class="func love"></div>
+					<div class="func download" onClick="javascript:window.open('audio/呦猫UNEKO - 梦回还.mp3','_blank')"></div>
+					<div class="func comment"></div>
+					<div class="func more"></div>
+				</div>
+			</div>
+			<div class="progressbars">
+				<span>00:00</span>
+				<div class="outter">
+				<div class="flexbox">
+				<div class="barbg">
+					<div id="progressbar" class="bar"></div>
+					<div id="progress" class="progress"></div>
+				</div>
+				</div>
+				</div>
+				<span>00:00</span>
+			</div>
+			<div class="buttons">
+				<div id="loop" class="loop"></div> 
+				<div class="prev"></div> 
+				<div id="play" class="play"></div> 
+				<div class="next"></div> 
+				<div>
+					<div id="list" class="list"></div><div class="listcontainer">
+						<header><span>播放列表</span></header>
+						<div>
+							<ul>
+							</ul>
+						</div>
+					</div></div>
+		</footer>
+	</div>
+	<audio id="audio"></audio>
+	<div class="good"></div>
+</body>
+</html>
