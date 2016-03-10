@@ -287,7 +287,7 @@ HTMLAudioElement.prototype.setCurrentSrc = function(currentSrcIndex){
 	$(".diskmask").css("background","img/"+window.memberlist[window.currentSrcIndex].soundtitle);
 	$(".listcontainer li").css("background-color","");
 	$("[data-id="+window.currentSrcIndex+"]").css("background-color","rgba(255,0,0,0.3)");
-	$("#membersshow #"+window.memberlist[currentSrcIndex].membername+" .containerwrap").load('content/'+window.memberlist[currentSrcIndex].memberintro+' .main-border');
+	$("#membersshow #"+window.memberlist[currentSrcIndex].membername+" .containerwrap").load(window.memberlist[currentSrcIndex].memberintro+' .main-border');
 	$("#membersshow .active").removeClass("active");
 	$("#membersshow #"+window.memberlist[currentSrcIndex].membername).addClass("active");
 	$(".download").click(function()
@@ -315,7 +315,7 @@ function parseMembers(data)
 		$(".listcontainer ul").append('<li class="musiclist" data-id="'+i+'" '+(i==0?'style="background-color:rgba(255,0,0,0.3)"':'')+'><div><span>'+content["membername"]+'</span><div><span>'+content["soundtitle"]+'</span><span>'+content["soundartist"]+'</span></div><span>'+content["soundtime"]+'</span></div></li>');
 		$("#membersshow").append('<li id="'+content["membername"]+'" '+(i==0?'class="active"':'')+'><div class="containerwrap"></div></li>');
 	});
-	$("#membersshow #"+window.memberlist[0].membername+" .containerwrap").load('content/'+window.memberlist[0].memberintro+' .main-border');
+	$("#membersshow #"+window.memberlist[0].membername+" .containerwrap").load(window.memberlist[0].memberintro+' .main-border');
 	audio.setCurrentSrc(0);
 	$(".musiclist").click(function()
 	{
