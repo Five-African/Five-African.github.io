@@ -45,7 +45,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	height: 100%;
 	width: 100%;
 	position: absolute;
-	background-image: url("../img/mhh.jpg");
+	background-image: url("../img/梦回还.jpg");
 	background-position: center;
 	background-size: cover;
 	-webkit-filter:blur(15px);
@@ -197,7 +197,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 {
 	width: 28vh;
 	height: 28vh;
-	background-image: url("../img/mhh.jpg");
+	background-image: url("../img/梦回还.jpg");
 	background-size: cover;
 	position: absolute !important;
 	margin: auto;
