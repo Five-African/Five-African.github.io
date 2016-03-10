@@ -1,0 +1,242 @@
+.container_border
+{
+	height: calc(95vw*5/3);
+	width: calc(54vw*5/3);
+	margin: calc(2vw*5/3) auto;
+	border-radius: calc(3vw*5/3);
+}
+.header
+{
+	height: calc(11vw*5/3);
+	margin-top: calc(0.3vw*5/3);
+}
+
+
+.outtervolumebar
+{
+	height: calc(3vw*5/3);
+	top: calc(1vw*5/3);
+}
+
+.cursoroutter
+{
+	width: calc(28vw*5/3);
+	height: calc(25vw*5/3);
+	margin-left: calc(-2.7vw*5/3);
+	top: calc(8vw*5/3);
+}
+
+.cursor
+{
+	width: calc(20vw*5/3);
+	height: calc(25vw*5/3);
+}
+
+
+.header>:first-child
+{
+	height: calc(8vw*5/3);
+}
+
+.header>:first-child>:first-child
+{
+	top: calc(0.5vw*5/3);
+	font-size: calc(3.5vw*5/3);
+}
+.header>:first-child>:last-child
+{
+	bottom: calc(0.2vw*5/3);
+	font-size: calc(2.2vw*5/3);
+}
+
+.share
+{
+	width: calc(4vw*5/3);
+	height: calc(4vw*5/3);
+	margin: calc(2vw*5/3) calc(2vw*5/3) calc(2vw*5/3);
+}
+
+.disk
+{
+	width: calc(28vw*5/3);
+	height: calc(28vw*5/3);
+}
+
+.diskborder
+{
+	width: calc(38vw*5/3);
+	height: calc(38vw*5/3);
+	border:solid calc(2vw*5/3) rgba(224,224,224,0.3);
+}
+
+.containerwrap
+{
+	width: calc(52vw*5/3);
+    height: calc(60vw*5/3);
+    top: calc(13vw*5/3);
+    padding: calc(1vw*5/3);
+}
+
+.controls
+{
+	height: calc(26vw*5/3);
+}
+
+.funcs
+{
+	height: calc(8vw*5/3);
+}
+
+.func
+{
+	width: calc(4vw*5/3);
+	height: calc(4vw*5/3);
+}
+
+.outter
+{
+	width: calc(34vw*5/3);
+}
+
+.progressbars
+{
+	height: calc(4vw*5/3);
+}
+
+.progressbars span
+{
+	width: calc(8vw*5/3);
+	height: calc(4vw*5/3);
+	font-size: calc(1.5vw*5/3);
+	margin: 0 calc(1vw*5/3);
+	line-height: calc(4vw*5/3);
+}
+
+.barbg
+{
+	height: calc(0.2vw*5/3);
+	border: solid calc(1.8vw*5/3) transparent; 
+}
+
+.bar
+{
+	height: calc(0.3vw*5/3);
+}
+
+.progress
+{
+	width: calc(1vw*5/3);
+	height: calc(1vw*5/3);
+	border:solid calc(0.8vw*5/3) white;
+	margin-left: calc(-1.35vw*5/3);
+}
+
+.buttons
+{
+	height: calc(14vw*5/3);
+}
+
+.buttons > div
+{
+	width: calc(10vw*5/3);
+	height: calc(10vw*5/3);
+}
+
+.play
+{
+	border:solid calc(0.5vw*5/3) #eee;
+}
+
+.pause
+{
+	border:solid calc(0.5vw*5/3) #eee;
+}
+
+.buttons>:last-child
+{
+	width: calc(6vw*5/3) !important;
+	height: calc(6vw*5/3) !important;
+	margin-bottom: calc(2vw*5/3);
+}
+
+.buttons>:first-child
+{
+	width: calc(6vw*5/3) !important;
+	height: calc(6vw*5/3) !important;
+	margin-bottom: calc(2vw*5/3);
+}
+
+.list
+{
+	width: calc(6vw*5/3) !important;
+	height: calc(6vw*5/3) !important;
+}
+
+.listcontainer
+{
+	width: calc(50vw*5/3);
+	height: calc(54vw*5/3);
+	margin-top: calc(-46vw*5/3);
+	margin-left: calc(-42vw*5/3);
+	border-radius: calc(3vw*5/3);
+}
+
+.listcontainer>:first-child
+{
+    height: calc(6vw*5/3);
+    font-size: calc(3vw*5/3);
+}
+
+.listcontainer>:first-child>:first-child
+{
+    height: calc(4vw*5/3);
+}
+
+.listcontainer>:last-child
+{
+    height: calc(48vw*5/3);
+    top: calc(6vw*5/3);
+}
+
+.listcontainer li{
+	height: calc(6vw*5/3);
+}
+
+.listcontainer li>:first-child
+{
+	width: calc(48vw*5/3);
+	padding: calc(0.2vw*5/3) calc(1vw*5/3);
+}
+
+.listcontainer li>:first-child *
+{
+	font-size: calc(5vw*5/3);
+	width: calc(16vw*5/3);
+}
+
+.listcontainer li>:first-child div>:first-child
+{
+	font-size: calc(2.5vw*5/3);
+}
+
+.listcontainer li>:first-child div *
+{
+	font-size: calc(2vw*5/3);
+}
+
+.listcontainer li>:first-child>:last-child
+{
+	font-size: calc(3vw*5/3);
+    height: calc(4vw*5/3);
+    right: calc(1vw*5/3);
+    width: calc(8vw*5/3);
+}
+
+.good
+{
+	width: calc(25vw*5/3);
+    height: calc(6vw*5/3);
+    bottom: calc(33vw*5/3);
+    border-radius: calc(2vw*5/3);
+    line-height: calc(6vw*5/3);
+}

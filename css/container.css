@@ -1,3 +1,23 @@
+@import url("container-portrait.css") (max-device-aspect-ratio : 5/8);
+@import url("container-landscape.css") (min-device-aspect-ratio : 5/8);
+
+@media (max-device-aspect-ratio:16/9)
+{
+	.list
+	{
+		background-color: rgba(0,0,0,0);
+	}
+}
+
+@media (min-device-aspect-ratio:16/9)
+{
+	.list
+	{
+		background-color: rgba(255,255,255,0);
+	}
+}
+
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
 {
 	margin: 0;
@@ -10,6 +30,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     position: absolute;
     color: #fff;
 }
+
+
 #containerbody{
 	width: 100%;
 	height: 100%;
@@ -33,11 +55,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .container_border
 {
-	height: 95vh;
-	width: 54vh;
-	margin: 2vh auto;
 	position: relative;
-	border-radius: 3vh;
 	box-shadow: 5px 5px 10px #333;
 }
 .diskmask
@@ -69,8 +87,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .header
 {
 	width: 100%;
-	height: 11vh;
-	margin-top: 0.3vh;
 }
 
 #currenttitle,#currentartist
@@ -81,9 +97,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .outtervolumebar
 {
 	width: 100%;
-	height: 3vh;
 	position: relative;
-	top: 1vh;
 	display: none;
 }
 
@@ -94,12 +108,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .cursoroutter
 {
-	width: 28vh;
-	height: 25vh;
 	overflow: hidden;
-	margin-left: -2.7vh;
 	left: 50%;
-	top: 8vh;
 	z-index: 99;
 }
 
@@ -109,8 +119,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	margin-top: -10%;
     background-size: cover;	
 	background-image: url("../img/cursor.png");
-	width: 20vh;
-	height: 25vh;
 	transform-origin: 12% 12%;
 	transform: rotate(-20deg);
 }
@@ -138,33 +146,25 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .header>:first-child
 {
 	width: 100%;
-	height: 8vh;
 	border-bottom: solid 1px #73686c;
 }
 
 .header>:first-child>:first-child
 {
 	width: 100%;
-	top: 0.5vh;
 	display: block;
 	text-align: center;
-	font-size: 3.5vh;
 }
 .header>:first-child>:last-child
 {
 	width: 100%;
-	bottom: 0.2vh;
 	display: block;
 	text-align: center;
-	font-size: 2.2vh;
 }
 
 .share
 {
 	position: relative;
-	width: 4vh;
-	height: 4vh;
-	margin: 2vh 2vh 2vh;
 	float: right;
 	background-image: url("../img/share.svg");
 	background-size: contain;
@@ -195,8 +195,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .disk
 {
-	width: 28vh;
-	height: 28vh;
 	background-image: url("../img/梦回还.jpg");
 	background-size: cover;
 	position: absolute !important;
@@ -233,9 +231,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .diskborder
 {
-	width: 38vh;
-	height: 38vh;
-	border:solid 2vh rgba(224,224,224,0.3);
 	background-color: #222;
     position: absolute;
     left: 0;
@@ -249,10 +244,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .containerwrap
 {
-	width: 52vh;
-    height: 60vh;
-    top: 13vh;
-    padding: 1vh;
     overflow: hidden;
 }
 
@@ -277,7 +268,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .controls
 {
-	height: 26vh;
 	width: 100%;
 	position: absolute;
 	bottom: 0px;
@@ -285,7 +275,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .funcs
 {
-	height: 8vh;
 	width: 100%;
 	position: relative;
 }
@@ -307,8 +296,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .func
 {
 	position: relative;
-	width: 4vh;
-	height: 4vh;
 	background-size: cover;
 	background-clip: content-box;
 	cursor: pointer;
@@ -343,7 +330,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .outter
 {
 	display: block;
-	width: 34vh;
 	height: 100%;
 	float: left;
 	position: relative;
@@ -361,7 +347,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .progressbars
 {
-	height: 4vh;
 	width: 100%;
 	text-align: center;
 	position: relative;
@@ -369,11 +354,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .progressbars span
 {
-	width: 8vh;
-	height: 4vh;
-	font-size: 1.5vh;
-	margin: 0 1vh;
-	line-height:4vh;   
 	position: relative;
 	float: left;
 	text-align: center;
@@ -385,16 +365,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	display: flex;
 	align-items:center;
 	width: 88%;
-	height: 0.2vh;
 	position: relative;
-	border: solid 1.8vh transparent; 
 	background-clip:content-box;
 	background-color: rgba(140,140,140,0.7);
 }
 
 .bar
 {
-	height: 0.3vh;
 	width: 100%;
 	position: relative;
 	background-color: red;
@@ -403,13 +380,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .progress
 {
-	width: 1vh;
-	height: 1vh;
 	position: relative;
 	background-color: red;
 	background-clip: content-box;
-	border:solid 0.8vh white;
-	margin-left: -1.35vh;
 	border-radius: 50%;
 	position: relative;
 	z-index: 15;
@@ -418,7 +391,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .buttons
 {
-	height: 14vh;
 	width: 100%;
 	text-align: center;
 	cursor:pointer;
@@ -428,8 +400,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .buttons > div
 {
 	position: relative;
-	width: 10vh;
-	height: 10vh;
 	display: inline-block;
 }
 
@@ -439,7 +409,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	background-image: url("../img/play.svg");
 	
 	background-size: contain;
-	border:solid 0.5vh #eee;
 	border-radius: 50%;
 }
 
@@ -449,7 +418,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	background-image: url("../img/pause.svg");
 	
 	background-size: contain;
-	border:solid 0.5vh #eee;
 	border-radius: 50%;
 }
 
@@ -469,62 +437,183 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .loop
 {
-	width: 6vh !important;
-	height: 6vh !important;
 	background-image: url("../img/loop.svg");
 	
 	background-size: contain;
-	margin-bottom: 2vh;
 }
 
 .loopone
 {
-	width: 6vh !important;
-	height: 6vh !important;
 	background-image: url("../img/loopone.svg");
 	
 	background-size: contain;
-	margin-bottom: 2vh;
 }
 
 .shuffle
 {
-	width: 6vh !important;
-	height: 6vh !important;
 	background-image: url("../img/shuffle.svg");
 	
 	background-size: contain;
-	margin-bottom: 2vh;
 }
 
 .buttons>:last-child
 {
-	width: 6vh !important;
-	height: 6vh !important;
-	margin-bottom: 2vh;
 }
 
 .list
 {
-	width: 6vh !important;
-	height: 6vh !important;
 	background-image: url("../img/list.svg");
 	background-size: contain;
 }
 
 .listcontainer
 {
-	width: 50vh;
-	height: 54vh;
-	margin-top: -46vh;
-	margin-left: -42vh;
 	background-color: rgba(255,251,240,0.7);
-	border-radius: 3vh;
 	cursor: initial;
 	display: none;
 }
 
-@keyframes listshow
+
+.listcontainer *
+{
+	overflow: hidden;
+}
+
+.listcontainer>:first-child
+{
+	width: 100%;
+    border-bottom: solid 1px #222;
+}
+.listcontainer>:first-child>:first-child
+{
+	margin: auto;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: #000;
+}
+
+.listcontainer>:last-child
+{
+	width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.listcontainer>div>ul
+{
+	width: 100%;
+    height: 100%;
+    position: relative;
+    overflow:auto;
+ /*   overflow-y:scroll;
+    overflow-x:hidden;*/
+}
+
+.listcontainer li{
+	width: 100%;
+	display: block;
+	position: relative;
+	border-bottom: solid 1px #666;
+	cursor: pointer;
+}
+
+.listcontainer li>:first-child
+{
+	height: 100%;
+	text-align: left;
+}
+
+.listcontainer li>:first-child *
+{
+	display: block;
+	position: relative;
+	color: #555;
+	float: left;
+}
+
+.listcontainer li>:first-child div>:first-child
+{
+	float: left;
+	color: #777;
+	display: block;
+}
+
+.listcontainer li>:first-child div *
+{
+	color: #777;
+	width: 100%;
+	display: block;
+}
+
+.listcontainer li>:first-child>:last-child
+{
+	color: #777;
+	top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: absolute;
+    padding-right: 15px;
+}
+
+.good
+{
+	display: none;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0,0,0,0.4);
+    text-align: center;
+    vertical-align: middle;
+}
+
+@keyframes listshow-portrait
+{
+	0%{
+		margin-top: -750%;
+		filter:alpha(opacity=0);
+		-moz-opacity:0;
+		-webkit-opacity:0;
+		-o-opacity:0;
+		opacity: 0;
+	}
+	100%
+	{
+		margin-top: -1020%;
+		filter:alpha(opacity=100);
+		-moz-opacity:1;
+		-webkit-opacity:1;
+		-o-opacity:1;
+		opacity: 1;
+	}
+}
+
+@keyframes listhide-portrait
+{
+	0%{
+		margin-top: -1020%;
+		filter:alpha(opacity=100);
+		-moz-opacity:1;
+		-webkit-opacity:1;
+		-o-opacity:1;
+		opacity: 1;
+	}
+	100%
+	{
+		margin-top: -750%;
+		filter:alpha(opacity=0);
+		-moz-opacity:0;
+		-webkit-opacity:0;
+		-o-opacity:0;
+		opacity: 0;
+	}
+}
+
+@keyframes listshow-landscape
 {
 	0%{
 		margin-left: -42vh;
@@ -554,7 +643,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	}
 }
 
-@keyframes listhide
+@keyframes listhide-landscape
 {
 	0%{
 		margin-left: 15vh;
@@ -582,123 +671,4 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		-o-opacity:0;
 		opacity: 0;
 	}
-}
-
-
-.listcontainer *
-{
-	overflow: hidden;
-}
-
-.listcontainer>:first-child
-{
-	width: 100%;
-    height: 6vh;
-    font-size: 3vh;
-    border-bottom: solid 1px #222;
-}
-.listcontainer>:first-child>:first-child
-{
-	margin: auto;
-    top: 0;
-    bottom: 0;
-    position: absolute;
-    left: 0;
-    right: 0;
-    color: #000;
-    height: 4vh;
-}
-
-.listcontainer>:last-child
-{
-	width: 100%;
-    height: 48vh;
-    position: relative;
-    top: 6vh;
-    overflow: hidden;
-}
-
-.listcontainer>div>ul
-{
-	width: 100%;
-    height: 100%;
-    position: relative;
-    overflow:auto;
- /*   overflow-y:scroll;
-    overflow-x:hidden;*/
-}
-
-.listcontainer li{
-	width: 100%;
-	height: 6vh;
-	display: block;
-	position: relative;
-	border-bottom: solid 1px #666;
-	cursor: pointer;
-}
-
-.listcontainer li>:first-child
-{
-	width: 48vh;
-	height: 100%;
-	text-align: left;
-	padding: 0.2vh 1vh;
-}
-
-.listcontainer li>:first-child *
-{
-	display: block;
-	position: relative;
-	font-size: 5vh;
-	color: #555;
-	width: 16vh;
-	float: left;
-}
-
-.listcontainer li>:first-child div>:first-child
-{
-	font-size: 2.5vh;
-	float: left;
-	color: #777;
-	display: block;
-}
-
-.listcontainer li>:first-child div *
-{
-	font-size: 2vh;
-	color: #777;
-	width: 100%;
-	display: block;
-}
-
-.listcontainer li>:first-child>:last-child
-{
-	font-size: 3vh;
-	color: #777;
-	top: 0;
-    bottom: 0;
-    margin-top: auto;
-    margin-bottom: auto;
-    position: absolute;
-    height: 4vh;
-    right: 1vh;
-    width: 8vh;
-    padding-right: 15px;
-}
-
-.good
-{
-	display: none;
-	width: 25vh;
-    height: 6vh;
-    position: relative;
-    left: 0;
-    right: 0;
-    margin: auto;
-    bottom: 33vh;
-    background-color: rgba(0,0,0,0.4);
-    border-radius: 2vh;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 6vh;
 }

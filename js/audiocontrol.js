@@ -98,10 +98,10 @@ window.onload=function()
 	$("#list").click(listshow = function(e){
 		e.stopPropagation();
 		if(!listshow.shown){
-			$(".listcontainer").show().css("animation","listshow 0.7s linear 0s forwards").css("-webkit-animation","listshow 0.7s linear 0s forwards").css("-o-animation","listshow 0.7s linear 0s forwards").css("-moz-animation","listshow 0.7s linear 0s forwards").delay(700);listshow.shown=true;
+			$(".listcontainer").show().css("animation",($(this).css("background-color")=="rgba(0, 0, 0, 0)"?"listshow-portrait":"listshow-landscape")+" 0.7s linear 0s forwards").css("-webkit-animation",($(this).css("background-color")=="rgba(0, 0, 0, 0)"?"listshow-portrait":"listshow-landscape")+" 0.7s linear 0s forwards").css("-o-animation",($(this).css("background-color")=="rgba(0, 0, 0, 0)"?"listshow-portrait":"listshow-landscape")+" 0.7s linear 0s forwards").css("-moz-animation",($(this).css("background-color")=="rgba(0, 0, 0, 0)"?"listshow-portrait":"listshow-landscape")+" 0.7s linear 0s forwards").delay(700);listshow.shown=true;
 		}else
 		{
-			$(".listcontainer").css("animation","listhide 0.7s linear 0s forwards").css("-webkit-animation","listhide 0.7s linear 0s forwards").css("-o-animation","listhide 0.7s linear 0s forwards").css("-moz-animation","listhide 0.7s linear 0s forwards").delay(700).hide(0);listshow.shown=false;
+			$(".listcontainer").css("animation",($(this).css("background-color")=="rgba(0, 0, 0, 0)"?"listhide-portrait":"listhide-landscape")+" 0.7s linear 0s forwards").css("-webkit-animation",($(this).css("background-color")=="rgba(0, 0, 0, 0)"?"listhide-portrait":"listhide-landscape")+" 0.7s linear 0s forwards").css("-o-animation",($(this).css("background-color")=="rgba(0, 0, 0, 0)"?"listhide-portrait":"listhide-landscape")+" 0.7s linear 0s forwards").css("-moz-animation",($(this).css("background-color")=="rgba(0, 0, 0, 0)"?"listhide-portrait":"listhide-landscape")+" 0.7s linear 0s forwards").delay(700).hide(0);listshow.shown=false;
 		}
 	});
 	$(".diskborder").click(function(e){
@@ -277,10 +277,10 @@ HTMLAudioElement.prototype.setCurrentSrc = function(currentSrcIndex){
 	val==0&&(val=1);
 	currentrandom==val&&(val=(val+1)%window.bgnum);
 	currentrandom=val;
-	// $("#containerbody").fadeOut("fast",function(){$(this).css("background-image","url(\"img/bg"+val+".jpg\")");$(this).fadeIn()});
-	// $(".mask_bg").fadeOut("fast",function(){$(this).css("background-image","url(\"img/bg"+val+".jpg\")");$(this).fadeIn()});
-	$("#containerbody").css("background-image","url(\"img/bg"+val+".jpg\")");
-	$(".mask_bg").css("background-image","url(\"img/bg"+val+".jpg\")");
+	// $("#containerbody").fadeOut("fast",function(){$(this).css("background-image","url(\"img/bg"+val+".jpg\")+" );$(this).fadeIn()});
+	// $(".mask_bg").fadeOut("fast",function(){$(this).css("background-image","url(\"img/bg"+val+".jpg\")+" );$(this).fadeIn()});
+	$("#containerbody").css("background-image","url(\"img/bg"+val+".jpg\")+" );
+	$(".mask_bg").css("background-image","url(\"img/bg"+val+".jpg\")+" );
 	window.currentSrcIndex = currentSrcIndex;
 	var currentSrc = window.memberlist[window.currentSrcIndex].soundsrc;
     $("#currenttitle").text(window.memberlist[window.currentSrcIndex].soundtitle);

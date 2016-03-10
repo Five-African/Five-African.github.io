@@ -1,0 +1,242 @@
+.container_border
+{
+	height: 95vh;
+	width: 54vh;
+	margin: 2vh auto;
+	border-radius: 3vh;
+}
+.header
+{
+	height: 11vh;
+	margin-top: 0.3vh;
+}
+
+
+.outtervolumebar
+{
+	height: 3vh;
+	top: 1vh;
+}
+
+.cursoroutter
+{
+	width: 28vh;
+	height: 25vh;
+	margin-left: -2.7vh;
+	top: 8vh;
+}
+
+.cursor
+{
+	width: 20vh;
+	height: 25vh;
+}
+
+
+.header>:first-child
+{
+	height: 8vh;
+}
+
+.header>:first-child>:first-child
+{
+	top: 0.5vh;
+	font-size: 3.5vh;
+}
+.header>:first-child>:last-child
+{
+	bottom: 0.2vh;
+	font-size: 2.2vh;
+}
+
+.share
+{
+	width: 4vh;
+	height: 4vh;
+	margin: 2vh 2vh 2vh;
+}
+
+.disk
+{
+	width: 28vh;
+	height: 28vh;
+}
+
+.diskborder
+{
+	width: 38vh;
+	height: 38vh;
+	border:solid 2vh rgba(224,224,224,0.3);
+}
+
+.containerwrap
+{
+	width: 52vh;
+    height: 60vh;
+    top: 13vh;
+    padding: 1vh;
+}
+
+.controls
+{
+	height: 26vh;
+}
+
+.funcs
+{
+	height: 8vh;
+}
+
+.func
+{
+	width: 4vh;
+	height: 4vh;
+}
+
+.outter
+{
+	width: 34vh;
+}
+
+.progressbars
+{
+	height: 4vh;
+}
+
+.progressbars span
+{
+	width: 8vh;
+	height: 4vh;
+	font-size: 1.5vh;
+	margin: 0 1vh;
+	line-height:4vh;
+}
+
+.barbg
+{
+	height: 0.2vh;
+	border: solid 1.8vh transparent; 
+}
+
+.bar
+{
+	height: 0.3vh;
+}
+
+.progress
+{
+	width: 1vh;
+	height: 1vh;
+	border:solid 0.8vh white;
+	margin-left: -1.35vh;
+}
+
+.buttons
+{
+	height: 14vh;
+}
+
+.buttons > div
+{
+	width: 10vh;
+	height: 10vh;
+}
+
+.play
+{
+	border:solid 0.5vh #eee;
+}
+
+.pause
+{
+	border:solid 0.5vh #eee;
+}
+
+.buttons>:last-child
+{
+	width: 6vh !important;
+	height: 6vh !important;
+	margin-bottom: 2vh;
+}
+
+.buttons>:first-child
+{
+	width: 6vh !important;
+	height: 6vh !important;
+	margin-bottom: 2vh;
+}
+
+.list
+{
+	width: 6vh !important;
+	height: 6vh !important;
+}
+
+.listcontainer
+{
+	width: 50vh;
+	height: 54vh;
+	margin-top: -46vh;
+	margin-left: -42vh;
+	border-radius: 3vh;
+}
+
+.listcontainer>:first-child
+{
+    height: 6vh;
+    font-size: 3vh;
+}
+
+.listcontainer>:first-child>:first-child
+{
+    height: 4vh;
+}
+
+.listcontainer>:last-child
+{
+    height: 48vh;
+    top: 6vh;
+}
+
+.listcontainer li{
+	height: 6vh;
+}
+
+.listcontainer li>:first-child
+{
+	width: 48vh;
+	padding: 0.2vh 1vh;
+}
+
+.listcontainer li>:first-child *
+{
+	font-size: 5vh;
+	width: 16vh;
+}
+
+.listcontainer li>:first-child div>:first-child
+{
+	font-size: 2.5vh;
+}
+
+.listcontainer li>:first-child div *
+{
+	font-size: 2vh;
+}
+
+.listcontainer li>:first-child>:last-child
+{
+	font-size: 3vh;
+    height: 4vh;
+    right: 1vh;
+    width: 8vh;
+}
+
+.good
+{
+	width: 25vh;
+    height: 6vh;
+    bottom: 33vh;
+    border-radius: 2vh;
+    line-height: 6vh;
+}
