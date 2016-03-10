@@ -73,6 +73,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	margin-top: 0.3vh;
 }
 
+#currenttitle,#currentartist
+{
+	overflow: hidden;
+}
+
 .outtervolumebar
 {
 	width: 100%;
@@ -248,6 +253,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     height: 60vh;
     top: 13vh;
     padding: 1vh;
+    overflow: hidden;
 }
 
 .active
