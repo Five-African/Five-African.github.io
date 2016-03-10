@@ -1,9 +1,9 @@
 # Five-African.github.io
 ## 实现功能
 * 1.音乐播放器(仿网易UI)
-* 
+![](https://github.com/Five-African/Five-African.github.io/raw/master/pic/player.png)
 * 2.成员简介
-* 
+![](https://github.com/Five-African/Five-African.github.io/raw/master/pic/intro.png)
 
 -------
 ## 文件结构
