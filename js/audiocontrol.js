@@ -179,7 +179,7 @@ window.onload=function()
                 var percentage = curTime/duration * 100;
                 $("#progressbar").css("width",percentage + "%");
                 var passedTime = formatTime(curTime);
-                $($("div").find("span")["0"]).text(passedTime);                  
+                $(".progressbars>:first-child").text(passedTime);                  
             });
 
 	//音频播放
