@@ -152,22 +152,24 @@ window.onload=function()
                 var totalTime = formatTime(this.duration);
                 $($("div").find("span")["1"]).text(totalTime);
                 $("#progressbar").width(0);
-
-				//播放暂停
-				$("#play").click(function(e)
-				{
-					e.stopPropagation();
-					if(paused)
-					{
-						audio.play();
-					}
-					else
-					{
-						audio.pause();
-					}
-				});
-
             });
+	$(audio).bind("canplay",function()
+	{
+		//播放暂停
+		$("#play").click(function(e)
+		{
+			e.stopPropagation();
+			if(paused)
+			{
+				audio.play();
+			}
+			else
+			{
+				audio.pause();
+			}
+		});
+	});
+	$(audio).trigger("canplay");
 	$(audio).trigger("loadedmetadata");
 
 	//播放时间更新
@@ -301,7 +303,7 @@ function formatTime(time) {
     var seconds = parseInt(time%60);
     seconds<10 && (seconds = "0" + seconds);
     minutes<10 && (minutes = "0" + minutes);
-    return isNaN(time)?"∞":minutes + ":" + seconds;
+    return isNaN(time)?"∞:∞":minutes + ":" + seconds;
 };
 
 function parseMembers(data)
