@@ -36,7 +36,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	width: 100%;
 	height: 100%;
 	position: fixed;
-	background-image: url("../img/bg1.jpg");
+	background-image: url("http://7xrr54.com1.z0.glb.clouddn.com/bg1.jpg");
 	background-size: cover;
 }
 
@@ -45,7 +45,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	height: 100%;
 	position: fixed;
 	z-index: -99;
-	background-image: url("../img/bg1.jpg");
+	background-image: url("http://7xrr54.com1.z0.glb.clouddn.com/bg1.jpg");
 	background-size: cover;
 	-webkit-filter:blur(5px);
 	-moz-filter:blur(5px);
@@ -118,7 +118,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	position: relative;
 	margin-top: -10%;
     background-size: cover;	
-	background-image: url("../img/cursor.png");
+	background-image: url("http://7xrr54.com1.z0.glb.clouddn.com/cursor.png");
 	transform-origin: 12% 12%;
 	transform: rotate(-20deg);
 }
