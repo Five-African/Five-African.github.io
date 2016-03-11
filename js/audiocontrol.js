@@ -7,6 +7,7 @@ window.onload=function()
 	myFirebaseRef.on("value", function(snapshot) {
 		$(".good").text("已有"+snapshot.val()+"人点赞");
 	});
+	$('.listcontainer>div>ul').perfectScrollbar();
 	window.currentrandom=1;
 	var audio = $("#audio")["0"];
 	var disk = $('.disk');
