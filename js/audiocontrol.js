@@ -74,21 +74,21 @@ window.onload=function()
 	//循环按钮
 	$('#loop').click(function(){
 		if(window.loopone){//window.loopone->window.shuffle
-			$(this).addClass('window.shuffle').removeClass('window.loopone');
+			$(this).addClass('shuffle').removeClass('loopone');
 			audio.loop = false;
 			window.loopone=false;
 			window.shuffle=true;
 		}
 		else if(window.shuffle)//window.shuffle->loop
 		{
-			$(this).addClass('loop').removeClass('window.shuffle');
+			$(this).addClass('loop').removeClass('shuffle');
 			audio.loop = false;
 			window.loopone = false;
 			window.shuffle=false;
 		}
 		else //loop->window.loopone
 		{
-			$(this).addClass('window.loopone').removeClass('loop');
+			$(this).addClass('loopone').removeClass('loop');
 			audio.loop = true;
 			window.loopone = true;
 			window.shuffle=false;
