@@ -113,7 +113,7 @@ window.onload=function()
 		$(".funcs>:first-child").fadeToggle();
 
 	});
-	$("#membersshow").click(function(e){
+	$(".containerwrap").click(function(e){
 		e.stopPropagation();
 		$(".cursoroutter").fadeToggle();
 		$(".outtervolumebar").fadeToggle();
