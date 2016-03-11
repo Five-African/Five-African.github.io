@@ -279,8 +279,8 @@ HTMLAudioElement.prototype.setCurrentSrc = function(currentSrcIndex){
 	currentrandom=val;
 	// $("#containerbody").fadeOut("fast",function(){$(this).css("background-image","url(\"img/bg"+val+".jpg\")+" );$(this).fadeIn()});
 	// $(".mask_bg").fadeOut("fast",function(){$(this).css("background-image","url(\"img/bg"+val+".jpg\")+" );$(this).fadeIn()});
-	$("#containerbody").css("background-image","url(\"img/bg"+val+".jpg\")+" );
-	$(".mask_bg").css("background-image","url(\"img/bg"+val+".jpg\")+" );
+	$("#containerbody").css("backgroundImage","url(\"http://7xrr54.com1.z0.glb.clouddn.com/bg"+val+".jpg\")" );
+	$(".mask_bg").css("backgroundImage","url(\"http://7xrr54.com1.z0.glb.clouddn.com/bg"+val+".jpg\")" );
 	window.currentSrcIndex = currentSrcIndex;
 	var currentSrc = window.memberlist[window.currentSrcIndex].soundsrc;
     $("#currenttitle").text(window.memberlist[window.currentSrcIndex].soundtitle);
