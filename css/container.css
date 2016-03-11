@@ -240,6 +240,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #membersshow
 {
 	display: none;
+    z-index: 20;
 }
 
 .containerwrap
@@ -299,6 +300,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	background-size: cover;
 	background-clip: content-box;
 	cursor: pointer;
+    z-index: 10;
 }
 
 .love
