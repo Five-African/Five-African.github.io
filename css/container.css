@@ -99,6 +99,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	width: 100%;
 	position: relative;
 	display: none;
+	z-index:25;
 }
 
 .volumebar
