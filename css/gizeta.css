@@ -19,20 +19,15 @@
 }
 
 #Gizeta table {
-  border: 1px solid #7384b5;
-  border-radius: 5px;
-  background-color: #f9f9f9;
-  margin: 0 auto;
+  background-color: rgba(200, 200, 200, 0.05);
+  border-collaspe: collapse;
+  margin: 5px auto;
   padding: 3px;
-  box-shadow: 0px 0px 10px 10px rgba(128, 128, 128, 0.1);
-}
-
-#Gizeta table td {
-  padding: 1px 5px;
+  box-shadow: 0px 0px 5px 5px rgba(200, 200, 200, 0.05);
 }
 
 #Gizeta .bg1 {
-  background-color: #dde6ff;
+  background-color: rgba(220,220,220,0.3);
 }
 
 #Gizeta .rufo, #Gizeta .gufo, #Gizeta .bufo {
