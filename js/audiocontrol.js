@@ -275,8 +275,8 @@ HTMLAudioElement.prototype.setCurrentTime = function(currentTime){
 HTMLAudioElement.prototype.setCurrentSrc = function(currentSrcIndex){
 	
 	var val = Math.ceil(Math.random()*window.bgnum);
-	val==0&&(val=1);
 	currentrandom==val&&(val=(val+1)%window.bgnum);
+	val==0&&(val=1);
 	currentrandom=val;
 	// $("#containerbody").fadeOut("fast",function(){$(this).css("background-image","url(\"img/bg"+val+".jpg\")+" );$(this).fadeIn()});
 	// $(".mask_bg").fadeOut("fast",function(){$(this).css("background-image","url(\"img/bg"+val+".jpg\")+" );$(this).fadeIn()});
