@@ -1,1 +1,9 @@
-[{"membername":"Ataris","soundsrc":"http://7xrr54.com1.z0.glb.clouddn.com/%E5%91%A6%E7%8C%ABUNEKO%20-%20%E6%A2%A6%E5%9B%9E%E8%BF%98.mp3","soundtitle":"\u68a6\u56de\u8fd8","soundartist":"\u5466\u732bUNEKO","soundtime":"04:10","memberintro":"content\/ataris.html"},{"membername":"Gizeta","soundsrc":"http://7u2gcx.com1.z0.glb.clouddn.com/M1_(Clip_ver).mp3","soundtitle":"M01 (Clip ver)","soundartist":"Yuki Kajiura","soundtime":"01:13","memberintro":"content/gizeta.html"}]
+[{"membername":"Ataris","soundsrc":"http://7xrr54.com1.z0.glb.clouddn.com/%E5%91%A6%E7%8C%ABUNEKO%20-%20%E6%A2%A6%E5%9B%9E%E8%BF%98.mp3","soundtitle":"\u68a6\u56de\u8fd8","soundartist":"\u5466\u732bUNEKO","soundtime":"04:10","memberintro":"content\/ataris.html"},{"membername":"Gizeta","soundsrc":"http://7u2gcx.com1.z0.glb.clouddn.com/M1_(Clip_ver).mp3","soundtitle":"M01 (Clip ver)","soundartist":"Yuki Kajiura","soundtime":"01:13","memberintro":"content/gizeta.html"},
+{
+    "membername" : "Clect",
+    "soundsrc" : "http://7u2gcx.com1.z0.glb.clouddn.com/SR_IP.mp3",
+    "soundtitle" : "I. Prelude",
+    "soundartist" : "Simon Rowland-Jones",
+    "soundtime" : "02:50",
+    "memberintro" : "content/clect.html"
+}]
