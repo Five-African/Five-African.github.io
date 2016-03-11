@@ -285,8 +285,8 @@ HTMLAudioElement.prototype.setCurrentSrc = function(currentSrcIndex){
 	var currentSrc = window.memberlist[window.currentSrcIndex].soundsrc;
     $("#currenttitle").text(window.memberlist[window.currentSrcIndex].soundtitle);
 	$("#currentartist").text(window.memberlist[window.currentSrcIndex].soundartist);
-	$(".disk").css("background","img/"+window.memberlist[window.currentSrcIndex].soundtitle+".jpg");
-	$(".diskmask").css("background","img/"+window.memberlist[window.currentSrcIndex].soundtitle+"jpg");
+	$(".disk").css("background-image","url(\"img/"+window.memberlist[window.currentSrcIndex].soundtitle+".jpg\")");
+	$(".diskmask").css("background-image","url(\"img/"+window.memberlist[window.currentSrcIndex].soundtitle+".jpg\")");
 	$(".listcontainer li").css("background-color","");
 	$("[data-id="+window.currentSrcIndex+"]").css("background-color","rgba(255,0,0,0.3)");
 	$("#membersshow #"+window.memberlist[currentSrcIndex].membername+" .containerwrap").load(window.memberlist[currentSrcIndex].memberintro+' .main-border');
