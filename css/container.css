@@ -353,6 +353,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	width: 100%;
 	text-align: center;
 	position: relative;
+	z-index:25;
 }
 
 .progressbars span
@@ -397,7 +398,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	width: 100%;
 	text-align: center;
 	cursor:pointer;
-	z-index: 14;
+	z-index: 25;
 }
 
 .buttons > div
