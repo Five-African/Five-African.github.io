@@ -1,4 +1,4 @@
-#tedhan .main-border
+#Ted .main-border
 {
     width:300px;
     height:500px;
@@ -11,7 +11,7 @@
     margin:0 auto;
 }
 
-#tedhan .main-bg
+#Ted .main-bg
 {
     background-color:#f3726d;
     border-top-left-radius:10px;
@@ -19,47 +19,47 @@
     height: 60px;
 }
 
-#tedhan .container
+#Ted .container
 {
     background:white;
 }
 
-#tedhan .title
+#Ted .title
 {
     height:45px;
     padding-top:5px;
     color:white;
 }
 
-#tedhan .name
+#Ted .name
 {
     margin-left:25px;
     font-size:170%;
 }
-#tedhan .w{
+#Ted .w{
     color:white !important;
 }
-#tedhan .b{
+#Ted .b{
     color:#f3726d;
 }
-#tedhan .normal
+#Ted .normal
 {
     display: inline-block;
     color:#f3726d;
 }
 
-#tedhan .type
+#Ted .type
 {
     margin-left:115px;
     text-align:right;
 }
 
-#tedhan .PinYin
+#Ted .PinYin
 {
     font-size:90%;
 }
 
-#tedhan .icon
+#Ted .icon
 {
     margin-top:20px;
     margin-left:60px;
@@ -70,7 +70,7 @@
     box-shadow: 1px 1px 1px #888888;
 }
 
-#tedhan .ability-container
+#Ted .ability-container
 {
     color:#f3726d;
     width: 260px;
@@ -78,32 +78,32 @@
     margin-left: 35px;
 }
 
-#tedhan .ability-container > div
+#Ted .ability-container > div
 {
     height:25px;
 }
 
-#tedhan .ability-slot-container
+#Ted .ability-slot-container
 {
     width: 160px;
     margin-left:10px;
 }
 
-#tedhan .ability
+#Ted .ability
 {
 
     height:11px;
     background:#f3726d;
 }
 
-#tedhan .skill-container
+#Ted .skill-container
 {
     margin-top:13px;
     margin-left:5px;
     color:white;
 }
 
-#tedhan .skill-border
+#Ted .skill-border
 {
     width:40px;
     height:40px;
@@ -111,7 +111,7 @@
     background:#f3726d;
 }
 
-#tedhan .skill
+#Ted .skill
 {
     margin-top:10px;
     text-align:center;
