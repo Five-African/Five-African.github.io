@@ -1,8 +1,8 @@
 
 #Clect .main-border
 {
-	width:300px;
-	height:500px;
+	width:30vh;
+	height:50vh;
 	border:1px solid #888888;
 	border-radius:10px;
 	box-shadow: 5px 5px 3px #888888;
@@ -15,8 +15,8 @@
 #Clect .main-bg
 {
 	background-color:#93e0ff;
-	border-top-left-radius:10px;
-    border-top-right-radius:10px;
+	border-top-left-radius:1vh;
+    border-top-right-radius:1vh;
     height: 60px;
 }
 
@@ -27,15 +27,15 @@
 
 #Clect .title
 {
-	height:45px;
-	padding-top:5px;
+	height:4.5vh;
+	padding-top:0.5vh;
 	color:white;
 }
 
 #Clect .name
 {
-	margin-left:25px;
-	font-size:170%;
+	margin-left:2.5vh;
+    font-size:3vh !important;
 }
 #Clect .w{
     color:white !important;
@@ -47,74 +47,75 @@
 {
 	display: inline-block;
     color:#93e0ff;
+    font-size:1.6vh;
 }
 
 #Clect .type
 {
-	margin-left:50px;
+	margin-left:6vh;
 	text-align:right;
 }
 
 #Clect .PinYin
 {
-	font-size:90%;
+	font-size:1vh;
 }
 
 #Clect .icon
 {
-	margin-top:20px;
-	margin-left:60px;
-	width:180px;
-	height:180px;
+	margin-top:2vh;
+	margin-left:6vh;
+	width:18vh;
+	height:18vh;
 	border:1px solid #888888;
-	border-radius:10px;
+	border-radius:1vh;
 	box-shadow: 1px 1px 1px #888888;
 }
 
 #Clect .ability-container
 {
 	color:#93e0ff;
-    width: 260px;
-    margin-top: 15px;
-    margin-left: 35px;
+    width: 26vh;
+    margin-top: 1.5vh;
+    margin-left: 3.5vh;
 }
 
 #Clect .ability-container > div
 {
-	height:25px;
+	height:2.5vh;
 }
 
 #Clect .ability-slot-container
 {
-	width: 160px;
-	margin-left:10px;
+	width: 16vh;
+	margin-left:1vh;
 }
 
 #Clect .ability
 {
     
-	height:11px;
+	height:1vh;
 	background:#93e0ff;
 }
 
 #Clect .skill-container
 {
-	margin-top:13px;
-	margin-left:5px;
+	margin-top:1.3vh;
+	margin-left:0.5vh;
 	color:white;
 }
 
 #Clect .skill-border
 {
-	width:40px;
-	height:40px;
-	border-radius:7px;
+	width:4vh;
+	height:4vh;
+	border-radius:0.7vh;
 	background:#93e0ff;
 }
 
 #Clect .skill
 {
-	margin-top:10px;
+	margin-top:1vh;
 	text-align:center;
 	font-size:80%;
 	font-weight:bold;
