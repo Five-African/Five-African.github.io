@@ -1,0 +1,120 @@
+#tedhan .main-border
+{
+    width:300px;
+    height:500px;
+    border:1px solid #888888;
+    border-radius:10px;
+    box-shadow: 5px 5px 3px #888888;
+    padding:10px;
+    background:white;
+    font-family:Microsoft YaHei;
+    margin:0 auto;
+}
+
+#tedhan .main-bg
+{
+    background-color:#f3726d;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    height: 60px;
+}
+
+#tedhan .container
+{
+    background:white;
+}
+
+#tedhan .title
+{
+    height:45px;
+    padding-top:5px;
+    color:white;
+}
+
+#tedhan .name
+{
+    margin-left:25px;
+    font-size:170%;
+}
+#tedhan .w{
+    color:white !important;
+}
+#tedhan .b{
+    color:#f3726d;
+}
+#tedhan .normal
+{
+    display: inline-block;
+    color:#f3726d;
+}
+
+#tedhan .type
+{
+    margin-left:115px;
+    text-align:right;
+}
+
+#tedhan .PinYin
+{
+    font-size:90%;
+}
+
+#tedhan .icon
+{
+    margin-top:20px;
+    margin-left:60px;
+    width:180px;
+    height:180px;
+    border:1px solid #888888;
+    border-radius:10px;
+    box-shadow: 1px 1px 1px #888888;
+}
+
+#tedhan .ability-container
+{
+    color:#f3726d;
+    width: 260px;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+#tedhan .ability-container > div
+{
+    height:25px;
+}
+
+#tedhan .ability-slot-container
+{
+    width: 160px;
+    margin-left:10px;
+}
+
+#tedhan .ability
+{
+
+    height:11px;
+    background:#f3726d;
+}
+
+#tedhan .skill-container
+{
+    margin-top:13px;
+    margin-left:5px;
+    color:white;
+}
+
+#tedhan .skill-border
+{
+    width:40px;
+    height:40px;
+    border-radius:7px;
+    background:#f3726d;
+}
+
+#tedhan .skill
+{
+    margin-top:10px;
+    text-align:center;
+    font-size:80%;
+    font-weight:bold;
+}

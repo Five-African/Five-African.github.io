@@ -6,4 +6,12 @@
     "soundartist" : "Simon Rowland-Jones",
     "soundtime" : "02:50",
     "memberintro" : "content/clect.html"
-}]
+},
+    {
+        "membername" : "Ted",
+        "soundsrc" : "http://7xrr54.com1.z0.glb.clouddn.com/The%20Killers%20-%20Human.mp3",
+        "soundtitle" : "Human",
+        "soundartist" : "The Killers",
+        "soundtime" : "04:07",
+        "memberintro" : "content/tedhan.html"
+    }]
