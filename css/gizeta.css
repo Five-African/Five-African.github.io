@@ -57,3 +57,11 @@
   width: 6px;
   background-color: #333;
 }
+
+.container_border:hover div[style*="img/M01 (Clip ver).jpg"] {
+  background-image: url("../img/M01_hover.jpg") !important;
+}
+
+div[style*="img/M01 (Clip ver).jpg"] {
+  transition: background-image 0.5s; /* webkit only */
+}
