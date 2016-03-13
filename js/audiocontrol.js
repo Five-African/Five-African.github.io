@@ -293,7 +293,7 @@ HTMLAudioElement.prototype.setCurrentSrc = function(currentSrcIndex){
 	$("#membersshow #"+window.memberlist[currentSrcIndex].membername+" .containerwrap").load(window.memberlist[currentSrcIndex].memberintro+' .main-border');
 	$("#membersshow .active").removeClass("active");
 	$("#membersshow #"+window.memberlist[currentSrcIndex].membername).addClass("active");
-	$(".download").attr('onclick',"javascript:window.open('"+currentSrc+"','_blank')")
+	$(".download").attr('onclick',"javascript:window.open('"+currentSrc+"','_blank')");
     this.src = currentSrc;
 }
 function formatTime(time) {
