@@ -293,6 +293,7 @@ HTMLAudioElement.prototype.setCurrentSrc = function(currentSrcIndex){
 	$("#membersshow #"+window.memberlist[currentSrcIndex].membername+" .containerwrap").load(window.memberlist[currentSrcIndex].memberintro+' .main-border');
 	$("#membersshow .active").removeClass("active");
 	$("#membersshow #"+window.memberlist[currentSrcIndex].membername).addClass("active");
+	$(".download").unbind("click");
 	$(".download").click(function()
 	{
 		 window.open(currentSrc,'_blank');
