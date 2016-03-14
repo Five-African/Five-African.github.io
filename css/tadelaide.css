@@ -1,0 +1,159 @@
+#Tadelaide .containerwrap *
+{
+    display: block;
+    font-size: 2vh;
+    position: relative;
+    color: #fff;
+}
+
+
+#Tadelaide .main-border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 35vh;
+    height: 50vh;
+    border: 0.1vh solid #888888;
+    border-radius: 1vh;
+    box-shadow: 0.5vh 0.5vh 0.3vh #888888;
+    padding: 1vh;
+    background: white;
+    font-family: Microsoft YaHei;
+}
+
+#Tadelaide .main-bg {
+    width: 35vh;
+    height: 50vh;
+    background: #32CD32;
+    border-radius: 1vh;
+}
+
+#Tadelaide .container {
+    width: 35vh;
+    height: 43vh;
+    background: white;
+}
+
+#Tadelaide .title {
+    height: 4.5vh;
+    padding-top: 0.5vh;
+    color: white;
+}
+
+#Tadelaide .name {
+    margin-left: 2.5vh;
+    font-size: 170%;
+}
+
+#Tadelaide .normal {
+    display: inline-block;
+}
+
+#Tadelaide .type {
+    float: right;
+    margin-right: 1.5vh;
+    text-align: right;
+}
+
+#Tadelaide .PinYin {
+    font-size: 90%;
+}
+
+#Tadelaide .icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 2.5vh;
+    background-size: contain;
+    width: 18vh;
+    height: 18vh;
+    border: 0.1vh solid #888888;
+    border-radius: 1vh;
+    box-shadow: 0.1vh 0.1vh 0.1vh #888888;
+}
+
+#Tadelaide .ability-container {
+    width: 28vh;
+    left: 0;
+    right: 0;
+    margin: 0 auto; 
+    padding-top: 22.5vh;
+    color: #9400D3;
+}
+
+#Tadelaide .ability-container *
+{
+    color: #9400D3;
+}
+
+#Tadelaide .ability-container > div {
+    height: 2.5vh;
+}
+
+#Tadelaide .ability-slot-container {
+    width: 18vh;
+    margin-left: 1vh;
+}
+
+#Tadelaide .ability {
+    height: 1.1vh;
+    background: #9400D3;
+    opacity: 0;
+    filter: Alpha(opacity=0); /* IE8 以及更早的浏览器 */
+    -moz-opacity: 0;
+    -webkit-opacity: 0;
+    -khtml-opacity: 0;
+    animation: ability-slot 1s ease 0.5s 1 forwards;
+    /* Firefox: */
+    -moz-animation: ability-slot 1s ease 0.5s 1 forwards;
+    /* Safari and Chrome: */
+    -webkit-animation: ability-slot 1s ease 0.5s 1 forwards;
+    /* Opera: */
+    -o-animation: ability-slot 1s ease 0.5s 1 forwards;
+}
+
+@keyframes ability-slot {
+    from {
+        width: 0;
+        opacity: 1;
+        filter: Alpha(opacity=1); /* IE8 以及更早的浏览器 */
+        -moz-opacity: 1;
+        -webkit-opacity: 1;
+        -khtml-opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+        filter: Alpha(opacity=1); /* IE8 以及更早的浏览器 */
+        -moz-opacity: 1;
+        -webkit-opacity: 1;
+        -khtml-opacity: 1;
+    }
+}
+
+#Tadelaide .skill-container {
+    margin-top: 1.3vh;
+    margin-left: 0.5vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Tadelaide .skill-border {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 0.7vh;
+    background: #32CD32;
+}
+
+#Tadelaide .skill {
+    margin-top: 1.3vh;
+    text-align: center;
+    font-size: 80%;
+    color: white;
+    font-weight: bold;
+}
