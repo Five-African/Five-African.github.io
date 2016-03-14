@@ -7,6 +7,7 @@ window.onload=function()
 	myFirebaseRef.on("value", function(snapshot) {
 		$(".good").text("已有"+snapshot.val()+"人点赞");
 	});
+	$('.listcontainer>div>ul').perfectScrollbar();
 	window.currentrandom=1;
 	var audio = $("#audio")["0"];
 	var disk = $('.disk');
@@ -274,8 +275,8 @@ HTMLAudioElement.prototype.setCurrentTime = function(currentTime){
 HTMLAudioElement.prototype.setCurrentSrc = function(currentSrcIndex){
 	
 	var val = Math.ceil(Math.random()*window.bgnum);
-	val==0&&(val=1);
 	currentrandom==val&&(val=(val+1)%window.bgnum);
+	val==0&&(val=1);
 	currentrandom=val;
 	// $("#containerbody").fadeOut("fast",function(){$(this).css("background-image","url(\"img/bg"+val+".jpg\")+" );$(this).fadeIn()});
 	// $(".mask_bg").fadeOut("fast",function(){$(this).css("background-image","url(\"img/bg"+val+".jpg\")+" );$(this).fadeIn()});
@@ -292,10 +293,7 @@ HTMLAudioElement.prototype.setCurrentSrc = function(currentSrcIndex){
 	$("#membersshow #"+window.memberlist[currentSrcIndex].membername+" .containerwrap").load(window.memberlist[currentSrcIndex].memberintro+' .main-border');
 	$("#membersshow .active").removeClass("active");
 	$("#membersshow #"+window.memberlist[currentSrcIndex].membername).addClass("active");
-	$(".download").click(function()
-	{
-		 window.open(currentSrc,'_blank');
-	});
+	$(".download").attr('onclick',"javascript:window.open('"+currentSrc+"','_blank')");
     this.src = currentSrc;
 }
 function formatTime(time) {

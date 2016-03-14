@@ -99,6 +99,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	width: 100%;
 	position: relative;
 	display: none;
+	z-index:25;
 }
 
 .volumebar
@@ -240,6 +241,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #membersshow
 {
 	display: none;
+    z-index: 20;
 }
 
 .containerwrap
@@ -299,6 +301,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	background-size: cover;
 	background-clip: content-box;
 	cursor: pointer;
+    z-index: 10;
 }
 
 .love
@@ -350,6 +353,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	width: 100%;
 	text-align: center;
 	position: relative;
+	z-index:25;
 }
 
 .progressbars span
@@ -394,7 +398,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	width: 100%;
 	text-align: center;
 	cursor:pointer;
-	z-index: 14;
+	z-index: 25;
 }
 
 .buttons > div

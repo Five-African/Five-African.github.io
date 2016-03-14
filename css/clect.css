@@ -1,0 +1,122 @@
+
+#Clect .main-border
+{
+	width:30vh;
+	height:50vh;
+	border:1px solid #888888;
+	border-radius:10px;
+	box-shadow: 5px 5px 3px #888888;
+	padding:10px;
+    background:white;
+	font-family:Microsoft YaHei;
+    margin:0 auto;
+}
+
+#Clect .main-bg
+{
+	background-color:#93e0ff;
+	border-top-left-radius:1vh;
+    border-top-right-radius:1vh;
+    height: 60px;
+}
+
+#Clect .container
+{
+	background:white;
+}
+
+#Clect .title
+{
+	height:4.5vh;
+	padding-top:0.5vh;
+	color:white;
+}
+
+#Clect .name
+{
+	margin-left:2.5vh;
+    font-size:3vh !important;
+}
+#Clect .w{
+    color:white !important;
+}
+#Clect .b{
+    color:#93e0ff;
+}
+#Clect .normal
+{
+	display: inline-block;
+    color:#93e0ff;
+    font-size:1.6vh;
+}
+
+#Clect .type
+{
+	margin-left:6vh;
+	text-align:right;
+}
+
+#Clect .PinYin
+{
+	font-size:1vh;
+}
+
+#Clect .icon
+{
+	margin-top:2vh;
+	margin-left:6vh;
+	width:18vh;
+	height:18vh;
+	border:1px solid #888888;
+	border-radius:1vh;
+	box-shadow: 1px 1px 1px #888888;
+}
+
+#Clect .ability-container
+{
+	color:#93e0ff;
+    width: 26vh;
+    margin-top: 1.5vh;
+    margin-left: 3.5vh;
+}
+
+#Clect .ability-container > div
+{
+	height:2.5vh;
+}
+
+#Clect .ability-slot-container
+{
+	width: 16vh;
+	margin-left:1vh;
+}
+
+#Clect .ability
+{
+    
+	height:1vh;
+	background:#93e0ff;
+}
+
+#Clect .skill-container
+{
+	margin-top:1.3vh;
+	margin-left:0.5vh;
+	color:white;
+}
+
+#Clect .skill-border
+{
+	width:4vh;
+	height:4vh;
+	border-radius:0.7vh;
+	background:#93e0ff;
+}
+
+#Clect .skill
+{
+	margin-top:1vh;
+	text-align:center;
+	font-size:80%;
+	font-weight:bold;
+}
