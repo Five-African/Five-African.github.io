@@ -233,7 +233,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .diskborder
 {
 	background-color: #222;
-	background: linear-gradient(to right, #222 30%, #aaa,#222 70%);
+	background: linear-gradient(to right bottom, #222 30%, #aaa,#222 70%);
     background-clip: content-box;
     position: absolute;
     left: 0;
