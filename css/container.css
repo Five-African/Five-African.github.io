@@ -192,6 +192,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	margin: -57% auto;
 	position: relative;
 	top: 50%;
+	animation: diskrotate 30s linear 0s infinite forwards;
+	-moz-animation: diskrotate 30s linear 0s infinite forwards;
+	-webkit-animation: diskrotate 30s linear 0s infinite forwards;
+	-o-animation: diskrotate 30s linear 0s infinite forwards;
+	animation-play-state:paused;
+	-moz-animation-play-state:paused;
+	-webkit-animation-play-state:paused;
+	-o-animation-play-state:paused;
 }
 
 .disk
@@ -204,14 +212,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	right: 0;
 	bottom: 0;
 	top: 0;
-	animation: diskrotate 30s linear 0s infinite forwards;
-	-moz-animation: diskrotate 30s linear 0s infinite forwards;
-	-webkit-animation: diskrotate 30s linear 0s infinite forwards;
-	-o-animation: diskrotate 30s linear 0s infinite forwards;
-	animation-play-state:paused;
-	-moz-animation-play-state:paused;
-	-webkit-animation-play-state:paused;
-	-o-animation-play-state:paused;
 }
 
 @keyframes diskrotate
@@ -233,6 +233,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .diskborder
 {
 	background-color: #222;
+	background: linear-gradient(to right, #222 30%, #aaa,#222 70%);
+    background-clip: content-box;
     position: absolute;
     left: 0;
     right: 0;
