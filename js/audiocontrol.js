@@ -10,7 +10,7 @@ window.onload=function()
 	$('.listcontainer>div>ul').perfectScrollbar();
 	window.currentrandom=1;
 	var audio = $("#audio")["0"];
-	var disk = $('.circle');
+	var disk = $('.diskborder');
 	var cursor = $(".cursor");
 	var paused=true;
 	window.loopone = false;
