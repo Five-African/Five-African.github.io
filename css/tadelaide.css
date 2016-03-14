@@ -1,4 +1,4 @@
-#Tadelaide .containerwrap *
+#T .containerwrap *
 {
     display: block;
     font-size: 2vh;
@@ -7,7 +7,7 @@
 }
 
 
-#Tadelaide .main-border {
+#T .main-border {
     position: absolute;
     top: 0;
     left: 0;
@@ -24,45 +24,45 @@
     font-family: Microsoft YaHei;
 }
 
-#Tadelaide .main-bg {
+#T .main-bg {
     width: 35vh;
     height: 50vh;
     background: #32CD32;
     border-radius: 1vh;
 }
 
-#Tadelaide .container {
+#T .container {
     width: 35vh;
     height: 43vh;
     background: white;
 }
 
-#Tadelaide .title {
+#T .title {
     height: 4.5vh;
     padding-top: 0.5vh;
     color: white;
 }
 
-#Tadelaide .name {
+#T .name {
     margin-left: 2.5vh;
     font-size: 170%;
 }
 
-#Tadelaide .normal {
+#T .normal {
     display: inline-block;
 }
 
-#Tadelaide .type {
+#T .type {
     float: right;
     margin-right: 1.5vh;
     text-align: right;
 }
 
-#Tadelaide .PinYin {
+#T .PinYin {
     font-size: 90%;
 }
 
-#Tadelaide .icon {
+#T .icon {
     position: absolute;
     left: 0;
     right: 0;
@@ -76,7 +76,7 @@
     box-shadow: 0.1vh 0.1vh 0.1vh #888888;
 }
 
-#Tadelaide .ability-container {
+#T .ability-container {
     width: 28vh;
     left: 0;
     right: 0;
@@ -85,21 +85,21 @@
     color: #9400D3;
 }
 
-#Tadelaide .ability-container *
+#T .ability-container *
 {
     color: #9400D3;
 }
 
-#Tadelaide .ability-container > div {
+#T .ability-container > div {
     height: 2.5vh;
 }
 
-#Tadelaide .ability-slot-container {
+#T .ability-slot-container {
     width: 18vh;
     margin-left: 1vh;
 }
 
-#Tadelaide .ability {
+#T .ability {
     height: 1.1vh;
     background: #9400D3;
     opacity: 0;
@@ -135,7 +135,7 @@
     }
 }
 
-#Tadelaide .skill-container {
+#T .skill-container {
     margin-top: 1.3vh;
     margin-left: 0.5vh;
     color: white;
@@ -143,14 +143,14 @@
     justify-content: space-between;
 }
 
-#Tadelaide .skill-border {
+#T .skill-border {
     width: 5vh;
     height: 5vh;
     border-radius: 0.7vh;
     background: #32CD32;
 }
 
-#Tadelaide .skill {
+#T .skill {
     margin-top: 1.3vh;
     text-align: center;
     font-size: 80%;
